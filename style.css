@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 35px;
+    border-top: 2px solid #000000;
+    border-right: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    border-left: 2px solid #000000;
+    border-radius: 8px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hours, .minutes, .seconds, .two-points {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.start {
+    width: 80px;
+    height: 35px;
+    background-color: #5cbe5c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.start:hover {
+    opacity: 0.8;
+}
+
+.start:active {
+    opacity: 0.6;
+}
+
+.pause {
+    width: 80px;
+    height: 35px;
+    background-color: #ffff00;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pause:hover {
+    opacity: 0.8;
+}
+
+.pause:active {
+    opacity: 0.6;
+}
+
+.reset {
+    width: 80px;
+    height: 35px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    opacity: 0.8;
+}
+
+.reset:active {
+    opacity: 0.6;
+}
